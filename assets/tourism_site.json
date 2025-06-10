@@ -1,16 +1,11 @@
+/* * This file contains a list of popular tourist sites in Africa.
+ * Each site includes its name, location, picture URL, rating, visitations, and a brief description.
+ */
 [
-  {
-    "name": "Wakanda",
-    "location": "Central Africa",
-    "picture": "https://example.com/images/wakanda.jpg",
-    "rating": 5,
-    "visitations": 1200000,
-    "description": "A mythical African nation known for its advanced technology and rich culture."
-  },
   {
     "name": "Victoria Falls",
     "location": "Zimbabwe/Zambia",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Victoria_Falls_-_panoramio.jpg",
+    "picture": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80",
     "rating": 5,
     "visitations": 1000000,
     "description": "One of the largest and most famous waterfalls in the world, located on the Zambezi River."
@@ -18,7 +13,7 @@
   {
     "name": "Table Mountain",
     "location": "Cape Town, South Africa",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Table_Mountain_from_Bloubergstrand.jpg",
+    "picture": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
     "rating": 5,
     "visitations": 900000,
     "description": "A flat-topped mountain forming a prominent landmark overlooking the city of Cape Town."
@@ -32,299 +27,28 @@
     "description": "Ancient pyramids and the Sphinx, one of the Seven Wonders of the Ancient World."
   },
   {
-    "name": "Serengeti National Park",
-    "location": "Tanzania",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Serengeti_Landscape.jpg",
-    "rating": 5,
-    "visitations": 800000,
-    "description": "Famous for its annual migration of over 1.5 million wildebeest and hundreds of thousands of zebras."
-  },
-  {
-    "name": "Marrakech Medina",
-    "location": "Marrakech, Morocco",
-    "picture": "https://example.com/images/marrakech_medina.jpg",
-    "rating": 4.8,
-    "visitations": 750000,
-    "description": "A UNESCO World Heritage site with vibrant souks, palaces, and gardens."
-  },
-  {
-    "name": "Mount Kilimanjaro",
-    "location": "Tanzania",
-    "picture": "https://example.com/images/kilimanjaro.jpg",
-    "rating": 5,
-    "visitations": 600000,
-    "description": "Africa's highest peak and a popular destination for climbers and adventurers."
-  },
-  {
-    "name": "Sossusvlei Dunes",
-    "location": "Namib Desert, Namibia",
-    "picture": "https://example.com/images/sossusvlei.jpg",
-    "rating": 4.9,
-    "visitations": 400000,
-    "description": "Iconic red sand dunes in the heart of the Namib Desert."
-  },
-  {
-    "name": "Robben Island",
-    "location": "Cape Town, South Africa",
-    "picture": "https://example.com/images/robben_island.jpg",
-    "rating": 4.7,
-    "visitations": 350000,
-    "description": "Historic island where Nelson Mandela was imprisoned for 18 years."
-  },
-  {
-    "name": "Ngorongoro Crater",
-    "location": "Tanzania",
-    "picture": "https://example.com/images/ngorongoro.jpg",
+    "name": "Zuma Rock",
+    "location": "Niger State, Nigeria",
+    "picture": "https://d6qyz3em3b312.cloudfront.net/upload/images/media/2022/01/07/shutterstock_1991334737.2048x1024.jpg",
     "rating": 5,
     "visitations": 500000,
-    "description": "A large volcanic caldera and a haven for wildlife."
+    "description": "A large monolith near Abuja, often referred to as the 'Gateway to Abuja'."
   },
   {
-    "name": "Bazaruto Archipelago",
-    "location": "Mozambique",
-    "picture": "https://example.com/images/bazaruto.jpg",
-    "rating": 4.8,
-    "visitations": 200000,
-    "description": "A group of islands known for their white-sand beaches and marine life."
-  },
-  {
-    "name": "Karnak Temple",
-    "location": "Luxor, Egypt",
-    "picture": "https://example.com/images/karnak_temple.jpg",
-    "rating": 4.9,
-    "visitations": 700000,
-    "description": "A vast complex of decayed temples, chapels, and pylons."
-  },
-  {
-    "name": "Okavango Delta",
-    "location": "Botswana",
-    "picture": "https://example.com/images/okavango_delta.jpg",
-    "rating": 5,
-    "visitations": 300000,
-    "description": "A unique inland delta and a UNESCO World Heritage site."
-  },
-  {
-    "name": "Lalibela Rock-Hewn Churches",
-    "location": "Lalibela, Ethiopia",
-    "picture": "https://example.com/images/lalibela.jpg",
-    "rating": 4.8,
-    "visitations": 250000,
-    "description": "Famous for its monolithic churches carved out of rock."
-  },
-  {
-    "name": "Zanzibar Stone Town",
-    "location": "Zanzibar, Tanzania",
-    "picture": "https://example.com/images/stone_town.jpg",
+    "name": "Olumo Rock",
+    "location": "Abeokuta, Ogun State, Nigeria",
+    "picture": "https://miro.medium.com/v2/resize:fit:670/0*GNYyOFB-i0kUTk2s.jpg",
     "rating": 4.7,
     "visitations": 400000,
-    "description": "A historic town with winding alleys, bustling bazaars, and mosques."
+    "description": "A popular tourist attraction in Abeokuta, featuring natural caves and a rich history."
   },
   {
-    "name": "Sahara Desert",
-    "location": "Northern Africa",
-    "picture": "https://example.com/images/sahara.jpg",
-    "rating": 5,
-    "visitations": 1000000,
-    "description": "The world's largest hot desert, stretching across several countries."
-  },
-  {
-    "name": "Cape Coast Castle",
-    "location": "Cape Coast, Ghana",
-    "picture": "https://example.com/images/cape_coast_castle.jpg",
+    "name": "Lekki Conservation Centre",
+    "location": "Lagos, Nigeria",
+    "picture": "https://ferinajo.com/wp-content/uploads/2020/09/IMG_6221-min-2.jpg",
     "rating": 4.6,
-    "visitations": 300000,
-    "description": "A historic slave trade castle and UNESCO World Heritage site."
-  },
-  {
-    "name": "Fish River Canyon",
-    "location": "Namibia",
-    "picture": "https://example.com/images/fish_river_canyon.jpg",
-    "rating": 4.8,
-    "visitations": 180000,
-    "description": "Africa's largest canyon, offering breathtaking views and hiking trails."
-  },
-  {
-    "name": "Djenne Mosque",
-    "location": "Djenne, Mali",
-    "picture": "https://example.com/images/djenne_mosque.jpg",
-    "rating": 4.7,
-    "visitations": 120000,
-    "description": "The largest mud-brick building in the world and a UNESCO World Heritage site."
-  },
-  {
-    "name": "Bwindi Impenetrable Forest",
-    "location": "Uganda",
-    "picture": "https://example.com/images/bwindi.jpg",
-    "rating": 4.9,
-    "visitations": 90000,
-    "description": "A biodiverse, mountainous area known for its population of mountain gorillas."
-  },
-  {
-    "name": "Gorée Island",
-    "location": "Dakar, Senegal",
-    "picture": "https://example.com/images/goree_island.jpg",
-    "rating": 4.6,
-    "visitations": 150000,
-    "description": "A small island with a dark history as a slave-trading center."
-  },
-  {
-    "name": "Kakum National Park",
-    "location": "Ghana",
-    "picture": "https://example.com/images/kakum.jpg",
-    "rating": 4.7,
-    "visitations": 110000,
-    "description": "Famous for its canopy walkway above the rainforest."
-  },
-  {
-    "name": "Blyde River Canyon",
-    "location": "Mpumalanga, South Africa",
-    "picture": "https://example.com/images/blyde_river.jpg",
-    "rating": 4.8,
-    "visitations": 170000,
-    "description": "One of the largest canyons on Earth, known for its lush subtropical foliage."
-  },
-  {
-    "name": "Lake Malawi",
-    "location": "Malawi/Mozambique/Tanzania",
-    "picture": "https://example.com/images/lake_malawi.jpg",
-    "rating": 4.9,
-    "visitations": 220000,
-    "description": "A vast lake with clear waters, sandy beaches, and diverse fish species."
-  },
-  {
-    "name": "Sidi Bou Said",
-    "location": "Tunisia",
-    "picture": "https://example.com/images/sidi_bou_said.jpg",
-    "rating": 4.7,
-    "visitations": 130000,
-    "description": "A picturesque town known for its blue and white architecture."
-  },
-  {
-    "name": "Addis Ababa National Museum",
-    "location": "Addis Ababa, Ethiopia",
-    "picture": "https://example.com/images/addis_museum.jpg",
-    "rating": 4.6,
-    "visitations": 90000,
-    "description": "Home to the famous fossil 'Lucy' and other archaeological treasures."
-  },
-  {
-    "name": "Elmina Castle",
-    "location": "Elmina, Ghana",
-    "picture": "https://example.com/images/elmina_castle.jpg",
-    "rating": 4.5,
-    "visitations": 140000,
-    "description": "A historic castle and former slave trading post."
-  },
-  {
-    "name": "Mount Kenya National Park",
-    "location": "Kenya",
-    "picture": "https://example.com/images/mount_kenya.jpg",
-    "rating": 4.8,
-    "visitations": 160000,
-    "description": "A UNESCO World Heritage site with Africa's second highest peak."
-  },
-  {
-    "name": "Giza Solar Boat Museum",
-    "location": "Giza, Egypt",
-    "picture": "https://example.com/images/solar_boat.jpg",
-    "rating": 4.7,
-    "visitations": 80000,
-    "description": "Museum housing the reconstructed Khufu ship, an ancient Egyptian vessel."
-  },
-  {
-    "name": "Kairouan Mosque",
-    "location": "Kairouan, Tunisia",
-    "picture": "https://example.com/images/kairouan_mosque.jpg",
-    "rating": 4.6,
-    "visitations": 100000,
-    "description": "One of the most important mosques in North Africa."
-  },
-  {
-    "name": "Kruger National Park",
-    "location": "South Africa",
-    "picture": "https://example.com/images/kruger.jpg",
-    "rating": 5,
-    "visitations": 1200000,
-    "description": "One of Africa's largest game reserves, home to the Big Five."
-  },
-  {
-    "name": "Fes el Bali",
-    "location": "Fes, Morocco",
-    "picture": "https://example.com/images/fes_el_bali.jpg",
-    "rating": 4.7,
-    "visitations": 180000,
-    "description": "A medieval city with narrow alleys and ancient mosques."
-  },
-  {
-    "name": "Lake Retba (Lac Rose)",
-    "location": "Senegal",
-    "picture": "https://example.com/images/lake_retba.jpg",
-    "rating": 4.6,
-    "visitations": 95000,
-    "description": "A pink-colored lake due to its high salt content and algae."
-  },
-  {
-    "name": "Sphinx Observatory",
-    "location": "Giza, Egypt",
-    "picture": "https://example.com/images/sphinx_observatory.jpg",
-    "rating": 4.8,
-    "visitations": 60000,
-    "description": "A site near the Sphinx offering panoramic views of the pyramids."
-  },
-  {
-    "name": "Atlas Mountains",
-    "location": "Morocco",
-    "picture": "https://example.com/images/atlas_mountains.jpg",
-    "rating": 4.9,
-    "visitations": 210000,
-    "description": "A mountain range stretching across northwestern Africa."
-  },
-  {
-    "name": "Gebel Barkal",
-    "location": "Sudan",
-    "picture": "https://example.com/images/gebel_barkal.jpg",
-    "rating": 4.5,
-    "visitations": 50000,
-    "description": "A small mountain and archaeological site with ancient temples."
-  },
-  {
-    "name": "Kigali Genocide Memorial",
-    "location": "Kigali, Rwanda",
-    "picture": "https://example.com/images/kigali_memorial.jpg",
-    "rating": 4.8,
-    "visitations": 120000,
-    "description": "A memorial and museum commemorating the victims of the 1994 genocide."
-  },
-  {
-    "name": "Sainte Anne Marine National Park",
-    "location": "Seychelles",
-    "picture": "https://example.com/images/sainte_anne.jpg",
-    "rating": 4.9,
-    "visitations": 70000,
-    "description": "A marine park with coral reefs and diverse marine life."
-  },
-  {
-    "name": "Royal Palace of Rabat",
-    "location": "Rabat, Morocco",
-    "picture": "https://example.com/images/royal_palace_rabat.jpg",
-    "rating": 4.7,
-    "visitations": 110000,
-    "description": "The official residence of the King of Morocco."
-  },
-  {
-    "name": "Djoudj National Bird Sanctuary",
-    "location": "Senegal",
-    "picture": "https://example.com/images/djoudj.jpg",
-    "rating": 4.8,
-    "visitations": 80000,
-    "description": "A wetland reserve and UNESCO World Heritage site, home to millions of birds."
-  },
-  {
-    "name": "Mosi-oa-Tunya National Park",
-    "location": "Zambia",
-    "picture": "https://example.com/images/mosi_oa_tunya.jpg",
-    "rating": 4.7,
-    "visitations": 90000,
-    "description": "A national park that includes part of Victoria Falls."
+    "visitations": 350000,
+    "description": "An urban oasis with a canopy walkway, known for its diverse flora and fauna."
   }
+
 ]
