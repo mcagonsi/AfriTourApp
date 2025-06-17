@@ -12,7 +12,6 @@ export default function Index() {
     const topTourismSites = tourist_sites.filter(site => site.rating == 5.0);
 
   return (
-      <ScrollView style={{flex: 1, height:"100%",backgroundColor: '#F0F0F0'}}>
         <View style={{padding:20,backgroundColor: '#F0F0F0'}}>
             <Text style={{color:"black", textAlign:'center', fontWeight:'bold',fontSize:24}}> Top 3 African Tourism Sites </Text>
             <TourismSite touristSite={topTourismSites[currentTouristSite]} />
@@ -37,13 +36,5 @@ export default function Index() {
             </View>
         </View>
 
-        {/* Displaying more tourism sites */}
-        <Text style={{color:"black", textAlign:'center', fontWeight:'bold',fontSize:24, padding:20}}> More Tourism Sites </Text>
-        {tourist_sites.map((touristSite, index) => (
-            <View key={index} style={{padding: 10}}>
-                <TourismSite touristSite={touristSite} />
-            </View>
-        ))}
-      </ScrollView>
   );
 }
