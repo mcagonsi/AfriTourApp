@@ -1,15 +1,14 @@
-import React from 'react';
-import tourist_sites from './../assets/tourism_site.json';
 import {View, Text, Pressable, ScrollView} from 'react-native';
+import { TourismContext } from './../contexts/tourismContextProvider';
 import TourismSite from './../components/TourismSite';
-import {useState} from 'react';
+import {useState,useContext} from 'react';
+import tourist_sites from './../assets/tourism_site.json';
+
 
 export default function Index() {
-    //setsCurrentTouristSite is used to track the current tourist site being displayed
+    const { TourismSites } = useContext(TourismContext);
     const [currentTouristSite, setCurrentTouristSite] = useState(0);
-
-    //dynamically filter the tourist sites to only show those with a rating of 5.0 top 3
-    const topTourismSites = tourist_sites.filter(site => site.rating == 5.0);
+    const topTourismSites = TourismSites.filter(site => site.rating == 5.0);
 
   return (
         <View style={{padding:20,backgroundColor: '#F0F0F0'}}>
@@ -21,6 +20,7 @@ export default function Index() {
                     <Pressable
                     key={index}
                     onPress={()=> setCurrentTouristSite(index)}
+
                     //dynamically styles the button based on active tourist site
                     style={{
                         backgroundColor: currentTouristSite === index ? '#007BFF' : '#E0E0E0',
